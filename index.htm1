@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>الهام تویز | فروشگاه عروسک</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Tahoma, Arial, sans-serif;
+      background: #fff7fb;
+      color: #333;
+    }
+
+    header {
+      background: #ff7eb3;
+      color: white;
+      text-align: center;
+      padding: 30px 15px;
+    }
+
+    header h1 {
+      margin: 0 0 10px;
+      font-size: 32px;
+    }
+
+    header p {
+      margin: 0;
+      font-size: 18px;
+    }
+
+    .welcome {
+      text-align: center;
+      padding: 30px 15px 15px;
+    }
+
+    .welcome h2 {
+      color: #e84d91;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 20px;
+      padding: 25px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .product {
+      background: white;
+      border-radius: 18px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    }
+
+    .toy {
+      font-size: 70px;
+      margin-bottom: 10px;
+    }
+
+    .product h3 {
+      color: #e84d91;
+    }
+
+    .contact {
+      text-align: center;
+      background: #ffe1ed;
+      padding: 30px 15px;
+      margin-top: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #ff7eb3;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>🧸 الهام تویز</h1>
+    <p>فروشگاه اینترنتی عروسک و اسباب‌بازی</p>
+  </header>
+
+  <section class="welcome">
+    <h2>به فروشگاه الهام تویز خوش آمدید 🌸</h2>
+    <p>اینجا دنیایی از عروسک‌های دوست‌داشتنی منتظر شماست.</p>
+  </section>
+
+  <section class="products">
+
+    <div class="product">
+      <div class="toy">🧸</div>
+      <h3>عروسک خرسی</h3>
+      <p>یک دوست دوست‌داشتنی برای کودکان</p>
+    </div>
+
+    <div class="product">
+      <div class="toy">🐰</div>
+      <h3>عروسک خرگوشی</h3>
+      <p>نرم، زیبا و دوست‌داشتنی</p>
+    </div>
+
+    <div class="product">
+      <div class="toy">🐻</div>
+      <h3>عروسک پولیشی</h3>
+      <p>مناسب هدیه و بازی</p>
+    </div>
+
+  </section>
+
+  <section class="contact">
+    <h2>📞 ارتباط با ما</h2>
+    <p>برای سفارش و اطلاع از قیمت‌ها با ما تماس بگیرید.</p>
+  </section>
+
+  <footer>
+    © ۲۰۲۶ الهام تویز
+  </footer>
+
+</body>
+</html>
