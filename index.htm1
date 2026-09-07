@@ -4,118 +4,25 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>الهام تویز | فروشگاه عروسک</title>
-
 <style>
 *{box-sizing:border-box}
-body{
-margin:0;
-font-family:Tahoma,Arial,sans-serif;
-background:#fff8fc;
-color:#333;
-}
-header{
-background:linear-gradient(135deg,#ff6fa8,#ff9bc5);
-color:white;
-text-align:center;
-padding:35px 15px;
-}
-header h1{
-font-size:38px;
-margin:0 0 10px;
-}
-header p{
-font-size:18px;
-margin:0;
-}
-nav{
-background:white;
-padding:14px;
-text-align:center;
-box-shadow:0 2px 10px #ddd;
-position:sticky;
-top:0;
-z-index:10;
-}
-nav a{
-color:#e84d91;
-text-decoration:none;
-margin:0 12px;
-font-weight:bold;
-}
-.hero{
-text-align:center;
-padding:40px 20px 20px;
-}
-.hero h2{
-color:#e84d91;
-font-size:28px;
-}
-.hero p{
-font-size:17px;
-line-height:2;
-}
-.products{
-max-width:1100px;
-margin:auto;
-padding:25px;
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(210px,1fr));
-gap:22px;
-}
-.card{
-background:white;
-border-radius:22px;
-padding:20px;
-text-align:center;
-box-shadow:0 5px 20px #eadce4;
-transition:.2s;
-}
-.card:hover{
-transform:translateY(-5px);
-}
-.photo{
-height:170px;
-border-radius:18px;
-background:#fff0f6;
-display:flex;
-align-items:center;
-justify-content:center;
-font-size:85px;
-margin-bottom:15px;
-}
-.card h3{
-color:#e84d91;
-margin:10px;
-}
-.price{
-font-size:20px;
-font-weight:bold;
-color:#444;
-margin:15px;
-}
-.order{
-display:inline-block;
-background:#e84d91;
-color:white;
-padding:11px 22px;
-border-radius:30px;
-text-decoration:none;
-}
-.contact{
-margin-top:30px;
-padding:40px 20px;
-text-align:center;
-background:#ffe5f0;
-}
-.contact h2{
-color:#e84d91;
-}
-footer{
-background:#e84d91;
-color:white;
-text-align:center;
-padding:20px;
-}
+body{margin:0;font-family:Tahoma,Arial,sans-serif;background:#fff8fc;color:#333}
+header{background:linear-gradient(135deg,#ff6fa8,#ff9bc5);color:white;text-align:center;padding:35px 15px}
+header h1{font-size:38px;margin:0 0 10px}
+header p{font-size:18px;margin:0}
+nav{background:white;padding:14px;text-align:center;box-shadow:0 2px 10px #ddd;position:sticky;top:0}
+nav a{color:#e84d91;text-decoration:none;margin:0 12px;font-weight:bold}
+.hero{text-align:center;padding:35px 20px 15px}
+.hero h2{color:#e84d91}
+.products{max-width:1100px;margin:auto;padding:25px;display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:22px}
+.card{background:white;border-radius:22px;padding:20px;text-align:center;box-shadow:0 5px 20px #eadce4}
+.photo{height:170px;border-radius:18px;background:#fff0f6;display:flex;align-items:center;justify-content:center;font-size:80px;margin-bottom:15px}
+.card h3{color:#e84d91}
+.price{font-size:19px;font-weight:bold;margin:15px;color:#444}
+.order{display:inline-block;background:#e84d91;color:white;padding:11px 22px;border-radius:30px;text-decoration:none}
+.contact{text-align:center;background:#ffe5f0;padding:40px 20px;margin-top:25px}
+.contact h2{color:#e84d91}
+footer{background:#e84d91;color:white;text-align:center;padding:20px}
 </style>
 </head>
 
@@ -123,7 +30,7 @@ padding:20px;
 
 <header>
 <h1>🧸 الهام تویز</h1>
-<p>فروشگاه اینترنتی عروسک و اسباب‌بازی</p>
+<p>فروشگاه اینترنتی عروسک و محصولات فانتزی</p>
 </header>
 
 <nav>
@@ -132,49 +39,46 @@ padding:20px;
 </nav>
 
 <section class="hero">
-<h2>به دنیای دوست‌داشتنی الهام تویز خوش آمدید 🌸</h2>
-<p>
-اینجا می‌توانید عروسک‌های زیبا و دوست‌داشتنی را ببینید
-و برای سفارش با ما در ارتباط باشید.
-</p>
+<h2>به فروشگاه الهام تویز خوش آمدید 🌸</h2>
+<p>محصولات زیبا و دوست‌داشتنی برای شما و عزیزانتان</p>
 </section>
 
 <section id="products" class="products">
 
 <div class="card">
 <div class="photo">🧸</div>
-<h3>عروسک خرسی</h3>
-<p>عروسک پولیشی دوست‌داشتنی</p>
-<div class="price">قیمت: به‌زودی</div>
+<h3>عروسک خنگول</h3>
+<p>اندازه: ۳۵ سانتی‌متر</p>
+<div class="price">۲,۲۰۰,۰۰۰ تومان</div>
 <a class="order" href="#contact">سفارش</a>
 </div>
 
 <div class="card">
-<div class="photo">🐰</div>
-<h3>عروسک خرگوشی</h3>
-<p>نرم و مناسب هدیه</p>
-<div class="price">قیمت: به‌زودی</div>
+<div class="photo">👼</div>
+<h3>قاب فرشته</h3>
+<p>اندازه: ۲۵ × ۳۰ سانتی‌متر</p>
+<div class="price">۱,۷۰۰,۰۰۰ تومان</div>
 <a class="order" href="#contact">سفارش</a>
 </div>
 
 <div class="card">
-<div class="photo">🐻</div>
-<h3>عروسک پولیشی</h3>
-<p>انتخابی زیبا برای کودکان</p>
-<div class="price">قیمت: به‌زودی</div>
+<div class="photo">🧸</div>
+<h3>عروسک آقا پلیسه</h3>
+<p>محصولی زیبا و دوست‌داشتنی</p>
+<div class="price">قیمت: تماس بگیرید</div>
 <a class="order" href="#contact">سفارش</a>
 </div>
 
 </section>
 
 <section id="contact" class="contact">
-<h2>📞 راه‌های سفارش</h2>
-<p>برای اطلاع از قیمت و ثبت سفارش با الهام تویز در ارتباط باشید.</p>
+<h2>📞 سفارش و ارتباط با ما</h2>
+<p>برای ثبت سفارش و اطلاع از جزئیات محصولات با ما تماس بگیرید.</p>
 <p>📱 شماره تماس: به‌زودی</p>
 </section>
 
 <footer>
-© ۲۰۲۶ الهام تویز | همه حقوق محفوظ است
+© ۲۰۲۶ الهام تویز
 </footer>
 
 </body>
