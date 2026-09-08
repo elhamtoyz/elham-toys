@@ -1,84 +1,201 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>الهام تویز | فروشگاه عروسک</title>
-<style>
-*{box-sizing:border-box}
-body{margin:0;font-family:Tahoma,Arial,sans-serif;background:#fff8fc;color:#333}
-header{background:linear-gradient(135deg,#ff6fa8,#ff9bc5);color:white;text-align:center;padding:35px 15px}
-header h1{font-size:38px;margin:0 0 10px}
-header p{font-size:18px;margin:0}
-nav{background:white;padding:14px;text-align:center;box-shadow:0 2px 10px #ddd;position:sticky;top:0}
-nav a{color:#e84d91;text-decoration:none;margin:0 12px;font-weight:bold}
-.hero{text-align:center;padding:35px 20px 15px}
-.hero h2{color:#e84d91}
-.products{max-width:1100px;margin:auto;padding:25px;display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:22px}
-.card{background:white;border-radius:22px;padding:20px;text-align:center;box-shadow:0 5px 20px #eadce4}
-.photo{height:170px;border-radius:18px;background:#fff0f6;display:flex;align-items:center;justify-content:center;font-size:80px;margin-bottom:15px}
-.card h3{color:#e84d91}
-.price{font-size:19px;font-weight:bold;margin:15px;color:#444}
-.order{display:inline-block;background:#e84d91;color:white;padding:11px 22px;border-radius:30px;text-decoration:none}
-.contact{text-align:center;background:#ffe5f0;padding:40px 20px;margin-top:25px}
-.contact h2{color:#e84d91}
-footer{background:#e84d91;color:white;text-align:center;padding:20px}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ELHAM TOYS | فروشگاه اینترنتی عروسک الهام تویز</title>
+
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Tahoma, Arial, sans-serif;
+      background: #fff8fc;
+      color: #4b285d;
+    }
+
+    header {
+      background: linear-gradient(135deg, #ec62b8, #9b72ed);
+      color: white;
+      text-align: center;
+      padding: 35px 15px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 42px;
+      direction: ltr;
+    }
+
+    header p {
+      font-size: 20px;
+      margin: 15px 0 0;
+    }
+
+    nav {
+      background: white;
+      text-align: center;
+      padding: 18px 5px;
+      box-shadow: 0 2px 8px #ddd;
+    }
+
+    nav a {
+      color: #70439a;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 18px;
+      margin: 0 12px;
+    }
+
+    .hero {
+      margin: 40px 15px;
+      padding: 45px 20px;
+      text-align: center;
+      border-radius: 30px;
+      background: linear-gradient(135deg, #ffe0f1, #e9dcff);
+    }
+
+    .hero h2 {
+      font-size: 30px;
+      margin-top: 0;
+    }
+
+    .hero p {
+      font-size: 19px;
+    }
+
+    .button {
+      display: inline-block;
+      background: #f34c9b;
+      color: white;
+      padding: 15px 30px;
+      border-radius: 35px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 15px;
+    }
+
+    .products {
+      padding: 20px 15px 50px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .products h2 {
+      text-align: center;
+      font-size: 30px;
+      margin-bottom: 30px;
+    }
+
+    .product-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+    }
+
+    .product {
+      background: white;
+      border-radius: 25px;
+      padding: 18px;
+      text-align: center;
+      box-shadow: 0 5px 18px #eadbea;
+    }
+
+    .product-image {
+      height: 220px;
+      border-radius: 20px;
+      background: linear-gradient(135deg, #ffe4f2, #eee4ff);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 85px;
+    }
+
+    .product h3 {
+      font-size: 21px;
+      margin: 18px 0 10px;
+    }
+
+    .price {
+      color: #e43d8d;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .contact {
+      background: #f2e7fa;
+      text-align: center;
+      padding: 40px 15px;
+    }
+
+    footer {
+      background: #70439a;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
 </head>
 
 <body>
 
 <header>
-<h1>🧸 الهام تویز</h1>
-<p>فروشگاه اینترنتی عروسک و محصولات فانتزی</p>
+  <h1>ELHAM TOYS 🧸</h1>
+  <p>فروشگاه اینترنتی عروسک الهام تویز</p>
 </header>
 
 <nav>
-<a href="#products">محصولات</a>
-<a href="#contact">تماس با ما</a>
+  <a href="#home">خانه</a>
+  <a href="#products">عروسک‌ها</a>
+  <a href="#about">درباره ما</a>
+  <a href="#contact">تماس با ما</a>
 </nav>
 
-<section class="hero">
-<h2>به فروشگاه الهام تویز خوش آمدید 🌸</h2>
-<p>محصولات زیبا و دوست‌داشتنی برای شما و عزیزانتان</p>
+<section class="hero" id="home">
+  <h2>🌸 دنیای شیرین عروسک‌ها 🌸</h2>
+  <p>به فروشگاه اینترنتی ELHAM TOYS خوش آمدید</p>
+  <a class="button" href="#products">مشاهده محصولات</a>
 </section>
 
-<section id="products" class="products">
+<section class="products" id="products">
+  <h2>🧸 محصولات ویژه 🧸</h2>
 
-<div class="card">
-<div class="photo">🧸</div>
-<h3>عروسک خنگول</h3>
-<p>اندازه: ۳۵ سانتی‌متر</p>
-<div class="price">۲,۲۰۰,۰۰۰ تومان</div>
-<a class="order" href="#contact">سفارش</a>
-</div>
+  <div class="product-list">
 
-<div class="card">
-<div class="photo">👼</div>
-<h3>قاب فرشته</h3>
-<p>اندازه: ۲۵ × ۳۰ سانتی‌متر</p>
-<div class="price">۱,۷۰۰,۰۰۰ تومان</div>
-<a class="order" href="#contact">سفارش</a>
-</div>
+    <div class="product">
+      <div class="product-image">🧸</div>
+      <h3>عروسک خنگول ۳۵ سانتی</h3>
+      <div class="price">۲٬۲۰۰٬۰۰۰ تومان</div>
+    </div>
 
-<div class="card">
-<div class="photo">🧸</div>
-<h3>عروسک آقا پلیسه</h3>
-<p>محصولی زیبا و دوست‌داشتنی</p>
-<div class="price">قیمت: تماس بگیرید</div>
-<a class="order" href="#contact">سفارش</a>
-</div>
+    <div class="product">
+      <div class="product-image">👼</div>
+      <h3>قاب فرشته ۲۵×۳۰</h3>
+      <div class="price">۱٬۷۰۰٬۰۰۰ تومان</div>
+    </div>
 
+    <div class="product">
+      <div class="product-image">🧸</div>
+      <h3>عروسک ننه جون آقا جون</h3>
+      <div class="price">تماس بگیرید</div>
+    </div>
+
+  </div>
 </section>
 
-<section id="contact" class="contact">
-<h2>📞 سفارش و ارتباط با ما</h2>
-<p>برای ثبت سفارش و اطلاع از جزئیات محصولات با ما تماس بگیرید.</p>
-<p>📱 شماره تماس: به‌زودی</p>
+<section class="contact" id="about">
+  <h2>💜 درباره الهام تویز</h2>
+  <p>فروشگاه اینترنتی عروسک الهام تویز، همراه شما برای انتخاب عروسک‌های دوست‌داشتنی.</p>
+</section>
+
+<section class="contact" id="contact">
+  <h2>📞 تماس با ما</h2>
+  <p>برای سفارش و اطلاع از محصولات با ما در ارتباط باشید.</p>
 </section>
 
 <footer>
-© ۲۰۲۶ الهام تویز
+  © 2026 ELHAM TOYS - فروشگاه اینترنتی عروسک الهام تویز
 </footer>
 
 </body>
